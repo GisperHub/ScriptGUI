@@ -3,6 +3,7 @@ local library = {
 		items = { }
 	}
     if _G.Color == nil then _G.Color = Color3.fromRGB(103, 89, 179) end
+    if _G.Color2 == nil then _G.Color2 = Color3.fromRGB(103, 89, 179) end
     -- Services
 	local players = game:GetService("Players")
 	local uis = game:GetService("UserInputService")
@@ -19,7 +20,7 @@ local library = {
         fontsize = 15,
         titlesize = 18,
         font = Enum.Font.Code,
-        background = "rbxassetid://",
+        background = "rbxassetid://5553946656",
         tilesize = 50,
         cursor = false,
         cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
@@ -27,6 +28,7 @@ local library = {
         tabstextcolor = Color3.fromRGB(240, 240, 240),
         bordercolor = Color3.fromRGB(60, 60, 60),
         accentcolor = _G.Color,
+        accentcolor2 = _G.Color2,
         outlinecolor = Color3.fromRGB(60, 60, 60),
         outlinecolor2 = Color3.fromRGB(0, 0, 0),
         sectorcolor = Color3.fromRGB(30, 30, 30),
