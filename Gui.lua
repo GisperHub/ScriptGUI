@@ -27,7 +27,6 @@ local library = {
         tabstextcolor = Color3.fromRGB(240, 240, 240),
         bordercolor = Color3.fromRGB(60, 60, 60),
         accentcolor = _G.Color,
-        accentcolor2 = _G.Color2,
         outlinecolor = Color3.fromRGB(60, 60, 60),
         outlinecolor2 = Color3.fromRGB(0, 0, 0),
         sectorcolor = Color3.fromRGB(30, 30, 30),
